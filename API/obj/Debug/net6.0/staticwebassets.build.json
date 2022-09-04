@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "c2iKauiiWk5ZiuMTL/JyWpGpwF60wDPM/+LZKfGXXzM=",
+  "Source": "API",
+  "BasePath": "_content/API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "C:\\Users\\Pritom\\Desktop\\Dev\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Pritom\\Desktop\\Dev\\API\\wwwroot\\Images\\Capture.PNG",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pritom\\Desktop\\Dev\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "Images/Capture.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Capture.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\Pritom\\Desktop\\Dev\\API\\wwwroot\\Images\\Dog.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pritom\\Desktop\\Dev\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "Images/Dog.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dog.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Pritom\\Desktop\\Dev\\API\\wwwroot\\Images\\Tom.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pritom\\Desktop\\Dev\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "Images/Tom.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Tom.jpg"
+    }
+  ]
+}

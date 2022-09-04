@@ -1,0 +1,35 @@
+ <div class="container">
+     
+    <button type="submit" routerLink="/add" class="btn btn-outline-success mt-4">ADD PRODUCT</button>
+    <table class="table table-striped mt-4" *ngIf="product">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Image</th>
+                <th>Warehouselist</th>
+                <th>Action</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let em of product">
+
+                <td>{{em.name}}</td>
+                <!-- <td>{{em.image}}</td> -->
+                <td><img [src]="createImgPath(em.imagePath)" alt="profile picture" style="width:60px; height:60px;"></td>
+                <td>{{em.warehouseList}}</td>
+                <td>
+                    <button type="button" class="btn btn-outline-primary" (click)="getProduct(em.id)">DETAILS</button>
+                    <button type="button" class="btn btn-outline-success" (click)="editProduct(em.id)">EDIT</button>
+                    <button type="button" class="btn btn-outline-danger" (click)="deleteProduct(em.id)">DELETE</button>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+</div> 
+  
+
+  
